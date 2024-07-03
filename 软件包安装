@@ -1,0 +1,13 @@
+
+pip install langchain  #[langchain,langchain-core,langchain-text-splitters,langsmith] pip freeze > requirements1.txt
+pip install langchain-community  #[langchain-community] pip freeze > requirements2.txt
+pip install langchain-openai  #[langchain-openai,openai] pip freeze > requirements3.txt
+pip install sentence-transformers  #[sentence-transformers,huggingface-hub] pip freeze > requirements4.txt
+pip install pymilvus  #[pymilvus] pip freeze > requirements5.txt
+pip install qianfan  #[qianfan] pip freeze > requirements6.txt
+pip install dashscope  #[dashscope] pip freeze > requirements7.txt
+pip install fastapi  #[fastapi,uvicorn,fastapi-cli] pip freeze > requirements8.txt
+pip install peewee   #[peewee] pip freeze > requirements9.txt
+pip install pymysql  #[pymysql] pip freeze > requirements10.txt
+pip install redis  #[redis] pip freeze > requirements11.txt
+pip install sse-starlette  #[sse-starlette] pip freeze > requirements12.txt
